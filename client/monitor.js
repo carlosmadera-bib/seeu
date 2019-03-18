@@ -3,9 +3,9 @@ const https = require('https');
 const schedule = require('node-schedule');
 
 
-const userID="YWjFFLuN4aYMf7lwXa4ASHWFkLn2";
-const thingid="-La7dhH9xRkhD-HvEx1L";
-const hostname = "us-central1-seeume-15d54.cloudfunctions.net";
+const userID="GoogleUserID";
+const thingid="ThingID";
+const hostname = "us-central1-<projectid>.cloudfunctions.net";
  
 schedule.scheduleJob('* * * * *', function(){
 	console.log('\nSending data...'+getDateTime());
